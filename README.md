@@ -1,4 +1,4 @@
-# Asrock-J3455-Fix-of-PVE
+# Asrock-J3455-Fix-Of-PVE
 1、1-Install-build-dependencies.sh 安装依赖包
 
 2、2-Clone.sh 获取 pve-kernel 源码
