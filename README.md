@@ -7,4 +7,4 @@
 
 4、4-Initialize-the-submodules.sh 初始化子项目
 
-5、5-Make.sh 开始编译
+5、5-Install-Fakeroot.sh 安装fakeroot
