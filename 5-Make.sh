@@ -1,1 +1,1 @@
-cd pve-kernel && make
+make
