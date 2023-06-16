@@ -18,9 +18,9 @@ sudo apt install cargo debcargo -y
 
 sudo apt install dwarves -y
 
-sudo apt-get install devscripts -y
-
 sudo apt-get install fakeroot -y
+
+sudo apt-get install devscripts -y
 
 apt-get update
 
