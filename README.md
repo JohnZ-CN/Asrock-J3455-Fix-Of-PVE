@@ -5,6 +5,6 @@
 
 3、3-ACS-patch.sh 打补丁
 
-4、4-Initialize-the-submodules.sh 初始化子项目
+4、4-Make-submodules.sh 初始化子项目
 
-5、5-Install-Fakeroot.sh 安装fakeroot
+5、5-Make-Deb.sh 开始编译
