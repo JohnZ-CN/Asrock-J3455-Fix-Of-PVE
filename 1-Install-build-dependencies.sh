@@ -22,13 +22,12 @@ sudo apt-get install devscripts -y
 
 sudo apt-get install fakeroot -y
 
-
 apt-get update
 
 apt-get upgrade
 
-
 curl https://sh.rustup.rs -sSf | sh
+
 rustup toolchain install nightly
 cp -a ~/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/ ~/.rustup/toolchains/system
 rustup default system
