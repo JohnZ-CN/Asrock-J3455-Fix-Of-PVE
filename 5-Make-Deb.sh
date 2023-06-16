@@ -6,3 +6,6 @@ yes| mk-build-deps --install --remove
 mk-build-deps --install
 #编译deb
 make deb
+
+#跑完码就可以安装了
+dpkg -i *.deb
