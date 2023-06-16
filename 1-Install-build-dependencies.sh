@@ -1,3 +1,5 @@
+nano /etc/apt/sources.list
+#添加并注释掉原内容
 deb https://mirrors.ustc.edu.cn/debian/ bullseye main contrib non-free
 deb https://mirrors.ustc.edu.cn/debian/ bullseye-updates main contrib non-free
 deb https://mirrors.ustc.edu.cn/debian/ bullseye-backports main contrib non-free
