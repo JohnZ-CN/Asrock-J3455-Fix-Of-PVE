@@ -23,11 +23,6 @@ sudo apt-get install fakeroot -y
 #mk-build-deps
 sudo apt-get install devscripts -y
 
-#自动安装依赖
-yes| mk-build-deps --install
-#自动安装依赖之后，卸载deps包
-yes| mk-build-deps --install --remove
-
 apt-get update
 
 apt-get upgrade
