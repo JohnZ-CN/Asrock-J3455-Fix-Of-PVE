@@ -16,7 +16,12 @@ sudo apt  install -y devscripts  build-essential librust-openssl-sys-dev git git
 
 sudo apt install cargo debcargo -y
 
-apt install dwarves -y
+sudo apt install dwarves -y
+
+sudo apt-get install devscripts -y
+
+sudo apt-get install fakeroot -y
+
 
 apt-get update
 
