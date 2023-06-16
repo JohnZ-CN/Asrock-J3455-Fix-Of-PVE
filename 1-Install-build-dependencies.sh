@@ -23,9 +23,9 @@ apt-get install fakeroot -y
 #mk-build-deps
 apt-get install devscripts -y
 
-apt-get update
+apt-get upgrade -y
 
-apt-get upgrade
+apt-get update
 
 curl https://sh.rustup.rs -sSf | sh
 
