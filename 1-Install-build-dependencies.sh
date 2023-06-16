@@ -43,3 +43,5 @@ cd /opt/debcargo
 cargo build --release 
 ln -s /opt/debcargo/target/release/debcargo /usr/bin/
 
+
+cd /root
