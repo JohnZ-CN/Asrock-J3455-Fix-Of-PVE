@@ -30,6 +30,7 @@ apt-get upgrade
 curl https://sh.rustup.rs -sSf | sh
 
 rustup toolchain install nightly
+#复制nightly toolchain 并且重命名为system.因为PVE开发团队代码定义system作为toolchain，所以拷贝
 cp -a ~/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/ ~/.rustup/toolchains/system
 rustup default system
 # rustup toolchain link system /usr
