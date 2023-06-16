@@ -38,6 +38,7 @@ rustup default system
 
 cd /opt
 git clone https://salsa.debian.org/rust-team/debcargo.git
+
 cd /opt/debcargo
 cargo build --release 
 ln -s /opt/debcargo/target/release/debcargo /usr/bin/
