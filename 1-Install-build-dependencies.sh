@@ -41,3 +41,9 @@ cd /opt/debcargo
 cargo build --release 
 ln -s /opt/debcargo/target/release/debcargo /usr/bin/
 
+mk-build-deps --instal
+
+#自动安装依赖
+yes| mk-build-deps --install
+#自动安装依赖之后，卸载deps包
+yes| mk-build-deps --install --remove
