@@ -11,6 +11,14 @@ deb https://mirrors.ustc.edu.cn/proxmox/debian/ceph-pacific bullseye main
 #开发源，必须
 deb https://mirrors.ustc.edu.cn/proxmox/debian/devel bullseye main
 
+#或者用
+add-apt-repository "deb https://mirrors.ustc.edu.cn/debian/ bullseye main contrib non-free"
+add-apt-repository "deb https://mirrors.ustc.edu.cn/debian/ bullseye-updates main contrib non-free"
+add-apt-repository "deb https://mirrors.ustc.edu.cn/debian/ bullseye-backports main contrib non-free"
+add-apt-repository "deb https://mirrors.ustc.edu.cn/debian-security bullseye-security main contrib"
+add-apt-repository "deb https://mirrors.ustc.edu.cn/proxmox/debian bullseye pve-no-subscription"
+add-apt-repository "deb https://mirrors.ustc.edu.cn/proxmox/debian/ceph-pacific bullseye main"
+add-apt-repository "deb https://mirrors.ustc.edu.cn/proxmox/debian/devel bullseye main"
 
 apt install asciidoc-base automake bc bison cpio debhelper dh-python file flex gcc git kmod libdw-dev libelf-dev libiberty-dev libnuma-dev libpve-common-perl libslang2-dev libssl-dev libtool lintian lz4 perl-modules python-is-python3 python3-dev rsync sed sphinx-common tar xmlto zlib1g-dev
 
